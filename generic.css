@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+.topbar {
+  height: 40px;
+  width: 100%;
+  background-color: #5385c1;
+}
+.inner-topbar {
+  width: 1280px;
+
+  height: 40px;
+  margin: 0 auto;
+}
+.logo {
+  display: inline;
+  float: left;
+  padding-top: 10px;
+  color: white;
+}
+.navigation {
+  float: right;
+  bottom: 5px;
+  position: relative;
+}
+
+.navigation ul li {
+  float: left;
+  list-style-type: none;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+.lipadding-left {
+  padding-left: 20px;
+}
+
+.full-width {
+  width: 100%;
+  /* background-color: blue; */
+  width: inherit;
+}
+.white-background {
+  background-color: white;
+}
+.removeheight {
+  height: inherit;
+}
+.inner {
+  width: 1280px;
+  /* background-color: white; */
+  height: inherit;
+  margin: 0 auto;
+}
+.lastsectionbeforefooter {
+}
+.lastsectionheight {
+  height: 500px;
+}
+.footer {
+  border-top: 1px solid grey;
+  /* margin-top: 8%; */
+  height: 100px;
+}
+.footer p {
+  padding-top: 2.5%;
+}
+.socialmediaicons {
+  float: right;
+  margin-top: -2.5%;
+  position: relative;
+}
+.socialmediaicons img {
+  padding-right: 10px;
+}
+.inner h1{
+  text-align: center;
+  font-size: 55px;
+  padding-top: 5%;
+  color: #5385c1;
+}
+.centerparagraph{
+  text-align: center;
+  font-size: 25px;
+  margin-top: -30px;
+}
+.longerptext {
+  font-size: 20px;
+  padding-top: 5%;
+}
+.lastsectionheight {
+  height: 500px;
+}
+.first-column{
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.first-column h3, .second-column h3 {
+color: #5385c1;
+}
+.first-column img{
+width: 100%;
+}
+.second-column{
+  float: left;
+  width: 48%;
+}
+.second-column img{
+width: 100%;
+}
+.more-button {
+background-color: #5385c1;
+  border: none;
+  padding: 7px 20px 5px 17px;
+  color: white;
+}
+.lastsectionbeforefooter { 
+  margin-top: 1%;
+}
+.lastsectionheight {
+height: 500px;
+}
+button {
+  background-color: #5385c1;
+  font-size: 15px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+

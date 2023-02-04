@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.full-width {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.kocka1{
+    background-color: grey;
+    height: 300px;
+    width: 100%;
+}
+.kocki2-3-4 {
+    width: 100%;
+    /* background-color: blue; */
+    height: 300px;
+}
+.kocka2, .kocka3, .kocka4 {
+    margin-top: 2%;
+    height: 300px;
+    width: 29.3%;
+    float: left;
+    background-color: grey;
+}
+.kocka2 {
+    margin-left: 2%;
+}
+.kocka4 {
+    margin-right: 2%;
+}
+.kocka3, .kocka4 {
+    margin-left: 4%;
+}
+.kocki5678 {
+    clear: both;
+    margin-top: 2%;
+}
+
+.kocka5{
+    margin-top: 2%;
+    width: 21%;
+    background-color: grey;
+    height: 300px;
+    float: left;
+    margin-left: 2%;
+}
+.kocka6{
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 21%;
+    background-color: grey;
+    height: 300px;
+    float: left;
+}
+.kocka7{
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 21%;
+    background-color: grey;
+    height: 300px;
+    float: left;
+}
+.kocka8{
+    margin-left: 4%;
+    margin-top: 2%;
+    width: 21%;
+    background-color: grey;
+    height: 300px;
+    float: left;
+}
+.kocki910{
+    width: 100%;
+    clear: both;
+    margin-top: 2%;
+    float: left;
+}
+.kocka9{
+    height: 360px;
+    margin-left: 2%;
+    margin-right: 4%;
+    width: 46%;
+    background-color: grey;
+    float: left;
+}
+.kocka10{
+    height: 360px;
+    float: left;
+    width: 46%;
+    background-color: grey;
+
+}
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: grey;
+    float: left;
+    margin-top: 2%;
+}
+@media (max-width:768px) {
+    .full-width{
+        width: 768px;
+    }
+    .kocka1 {
+        margin-top: 2%;
+        height: 650px;
+        width: 96%;
+        margin-left: 2%;
+        background-color:grey;
+    }
+    .kocka2, .kocka3, .kocka4, .kocka5, .kocka6, .kocka7, .kocka8, .kocka9, .kocka10 {
+        position: relative;
+        left: 2%;
+        width:96%;
+        margin-left: 0%;
+        background-color: grey;
+        height: 650px;
+    }
+    .kocka9 {
+        margin-bottom: 2%;
+    }
+    .footer{
+        position: relative;
+        left: 2%;
+        width:96%;
+        margin-left: 0%;
+        background-color: grey;
+        height: 650px;
+    }
+}
+

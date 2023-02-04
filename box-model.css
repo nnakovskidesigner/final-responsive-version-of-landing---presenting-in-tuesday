@@ -1,0 +1,50 @@
+/* //1 div shto ke bide 100%
+//2 diva shto ke bidat po 50
+//3 diva so 50 */
+.box1 {
+    background-color: cyan;
+    height: 300px;
+    width: 100%;
+}
+.box2{
+    background-color: red;
+    height: 300px;
+    width: 48%;
+    margin-right: 4%;
+    float: left;
+}
+.box3{
+    background-color: green;
+    height: 300px;
+    width: 48%;
+    float: left;
+}
+.box4 {
+    background-color: blue;
+    height: 300px;
+    width: 30.66%;
+    float: left;
+    margin-right: 4%;
+}
+.box5 {
+    background-color: brown;
+    height: 300px;
+    width: 30.66%;
+    float: left;
+    margin-right: 4%;
+}
+.box6 {
+    height: 300px;
+    width: 30.66%;
+    float: left;
+}
+.mainbox {
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+}
+@media (max-width:768px){
+    .box2, .box3, .box4, .box5,.box6{
+        width:100%;
+    }
+}

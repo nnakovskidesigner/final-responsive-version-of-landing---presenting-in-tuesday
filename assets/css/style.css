@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.full-width{
+    width: 100%;
+    /* background-color: blue; */
+    height: 400px;
+    
+}
+.bluepeoplesection {
+  height: 600px;
+}
+.bluepeoplesection {
+  text-align: center;
+  color: white;
+  padding-top: 3%;
+}
+.bluepeoplesection p {
+  padding-bottom: 3%;
+}
+
+.inner{
+    width: 1280px;
+    /* background-color: white; */
+    height: 300px;
+    margin: 0 auto;
+}
+.bg-image {
+    background-image: url(/assets/css/images/banner.jpg);
+    background-size: cover;
+}
+
+.white-background{
+    
+    background-color: white;
+}
+.blue-background {
+    background-color: #5385c1;
+}
+.logo {
+    display: inline;
+    color: white;
+  }
+.navigation {
+    float: right;
+    
+}
+.navigation_wrap{
+  display: inline;
+}
+.logo{
+  top: 4.6%;
+  position: relative;
+}
+.navigation ul li{
+  float: left;
+  list-style-type: none;
+}
+.navigation ul li a{
+  text-decoration: none;
+  color: white;
+}
+.lipadding-left {
+  padding-left: 20px;
+}
+
+
+.hero_content_wrap{
+  color: white;
+  text-align: center;
+  padding-top: 7%;
+  font-size: 1.5rem;
+}
+
+.box1, .box2, .box3{
+  margin-top: 10%;
+}
+.box1 h3, .box2 h3, .box3 h3{
+  color: #5385c1;
+}
+.box1{
+    float: left;
+    width: 27%;
+    padding-right: 4%;
+    /* padding-left: 4%; */
+    border-right: 1px solid black;
+}
+.box2{
+    float: left;
+    width: 27%;
+    padding-right: 4%;
+    padding-left: 4%;
+    border-right: 1px solid black;
+}
+.box3{
+    float: left;
+    width: 29%;
+    /* padding-right: 4%; */
+    padding-left: 4%;
+    text-align: left;
+}
+button {
+  background-color: #5385c1;
+  font-size: 15px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+.peoplebox1 {
+    border: 1px solid white;
+    width: 21.5%;
+    height: 30%;
+    float: left;
+    text-align: center;
+}
+.peoplebox2 {
+  margin-left: 4%;
+  border: 1px solid white;
+  width: 21.5%;
+  height: 30%;
+  float: left;
+  text-align: center;
+}
+.peoplebox3 {
+  margin-left: 4%;
+  border: 1px solid white;
+  width: 21.5%;
+  height: 30%;
+  float: left;
+  text-align: center;
+}
+.peoplebox1,.peoplebox2, .peoplebox3, .peoplebox4 {
+  padding-top: 5%;
+  color: white;
+  padding-bottom: 5%;
+}
+.peoplebox4 {
+  margin-left: 4%;
+  border: 1px solid white;
+  width: 21.5%;
+  height: 30%;
+  float: left;
+  text-align: center;
+}
+/* .inner h1{
+    text-align: center;
+} */
+/* .inner p{
+    text-align: center;
+} */
+.first-column{
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+.first-column h3, .second-column h3 {
+  color: #5385c1;
+}
+.first-column img{
+  width: 100%;
+}
+.second-column{
+    float: left;
+    width: 48%;
+}
+.second-column img{
+  width: 100%;
+}
+.more-button {
+  background-color: #5385c1;
+    border: none;
+    padding: 7px 20px 5px 17px;
+    color: white;
+}
+.lastsectionbeforefooter { 
+}
+.lastsectionheight {
+  height: 500px;
+}
+.footer{
+  border-top: 1px solid grey;
+  /* margin-top: 8%; */
+  height: 100px;
+}
+.footer p{
+  padding-top: 2.5%;
+
+}
+.socialmediaicons {
+  float: right;
+  margin-top: -2.5%;
+  position: relative;
+}
+.socialmediaicons img{
+  padding-right: 10px;
+}
+.removeheight{
+  height: inherit;
+}
+
+

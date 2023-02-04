@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.full-width {
+    width:1280px;
+    margin: 0 auto;
+}
+.firstbox {
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+    float: left;
+}
+.secondbox, .seventhbox {
+    margin-top: 2%;
+    min-height: 380px;
+    margin-left: 2%;
+    width: 46%;
+    background-color: grey;
+    float: left;
+}
+.thirdbox, .eighthbox{
+    margin-top: 2%;
+    min-height: 380px;
+    width: 46%;
+    background-color: grey;
+    float: left;
+    margin-left: 4%;
+}
+.fourthbox {
+    clear: both;
+    width: 29.3%;
+    height: 380px;
+    background-color: grey;
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+    margin-right: 4%;
+}
+.fifthbox{
+    width: 29.3%;
+    height: 380px;
+    background-color: grey;
+    margin-top: 2%;
+    float: left;
+    margin-right: 4%;
+}
+.sixthbox {
+    width: 29.3%;
+    height: 380px;
+    background-color: grey;
+
+    margin-top: 2%;
+    float: left;
+}
+.seventh-1,.seventh-2{
+    width: 96%;
+    height: 100px;
+    background-color: red;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.seventh-2{
+    width: 46%;
+    height: 100px;
+    background-color: red;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 4%;
+    float: left;
+}
+.seventh-3{
+    width: 46%;
+    height: 100px;
+    background-color: red;
+    margin-top: 2%;
+    float: left;
+}
+.seventh-4 {
+    float: left;
+    width: 96%;
+    height: 100px;
+    background-color: red;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+@media (max-width:768px){
+    .firstbox{
+        background-color: green;
+        height: 650px;
+        width: 768px;
+    }
+    .secondbox{
+
+    }
+}

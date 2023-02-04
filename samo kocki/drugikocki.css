@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.kockiwrapper{
+    width: 1280px;
+    margin:0 auto;
+
+}
+.kocka1{
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+}
+.kocka2{
+    margin-top: 2%;
+    height: 360px;
+    margin-left: 2%;
+    margin-right: 4%;
+    width: 46%;
+    background-color: grey;
+    float: left;
+}
+.kocka3{
+    margin-top: 2%;
+    height: 360px;
+    width: 46%;
+    background-color: grey;
+    float: left;
+}
+@media (max-width:768px) {
+    .kocka1 {
+        height: 650px;
+        margin-left: 2%;
+        margin-top: 2%;
+        width: 96%;
+    }
+    .kocka2, .kocka3 {
+        height: 650px;
+        width: 96%;
+    }
+    .kocka3 {
+        clear: both;
+        height: 650px;
+        width: 96%;
+        margin-left: 2%;
+    }
+}
