@@ -133,6 +133,8 @@ padding-left: 20px;
 }
 .threeparagraphshere{
   width: 100%;
+  margin-bottom: 50px;
+  height: 180px;
 }
 .p1of3{
   width: 33.33%;
@@ -154,6 +156,11 @@ padding-left: 20px;
 }
 .twodividedsections{
   width: 100%;
+  border-top: 1px solid grey;
+  padding-top: 3%;
+}
+.twodividedsections h2{
+  color: #5385c1;
 }
 .leftsection{
   width: 45%;
@@ -162,4 +169,309 @@ padding-left: 20px;
 .rightsection{
   width: 50%;
   float: right;
+}
+.firstleftsection {
+  border-bottom: 1px solid grey;
+  padding-bottom: 1%;
+}
+.firstleftsection h3{
+  color: #5385c1;
+  font-size: 25px;
+}
+.firstleftsection pre{
+  background-color: #f7f7f7;
+  padding: 5px;
+  display: inline;
+  border: 1px solid black;
+}
+.headings {
+  border-bottom: 1px solid grey;
+  padding-bottom: 1%;
+  color: #5385c1;
+}
+.subtitleheading h1, .subtitleheading h3, .subtitleheading h4 {
+  color: #5385c1;
+  padding-top: 5%;
+}
+.paddingbottomp{
+  padding-top: 5%;
+}
+.lists {
+  margin-top: 5%;
+  width: 100%;
+}
+.lists h3 {
+  color: #5385c1;
+}
+.unorderedlist{
+  width: 45%;
+  float: left;
+}
+.orderedlists {
+  width: 50%;
+  float: right;
+}
+.unorderedlist h4{
+  color: #5385c1;
+}
+.orderedlists h4{
+  color: #5385c1;
+}
+.bluecolorfont{
+  color: #5385c1;
+}
+.icons img{
+  width: 35px;
+  padding-right: 3%;
+}
+.definitions{
+  margin-bottom: 5%;
+}
+.definitions h2 {
+  color: #5385c1;
+}
+.definitions h3 {
+  color:grey;
+}
+.definitions p{
+  padding-left: 5%;
+}
+.actions h3 {
+  color: #5385c1;
+}
+.defaultbluebutton1 {
+  color: white;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.defaultbluebutton2 {
+  color: white;
+  background-color: #5a5a5a;
+  border: none;
+  font-size: 25px;
+  padding: 10px 25px;
+}
+.defaultbluebutton3 {
+  color: black;
+  background-color: white;
+  border: 3px solid #5a5a5a;
+  font-size: 25px;
+  padding: 7px 22px;
+}
+/* MISTAKE FOUND HERE IN THIS CODE FROM PREVIOUS VERSION :) */
+.defaultbluebutton2,
+.defaultbluebutton3 {
+  margin-left: 20px;
+}
+.twobuttonsdividedsectionsleft-right {
+  width: 100%;
+  margin-top: 5%;
+}
+.leftbuttons-section{
+  float: left;
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* COPIED CODE BE CAREFUL */
+.removeleftmargin {
+  margin-left: -20px;
+}
+
+
+
+.leftbuttonsfirstmargintop {
+  margin-bottom: 20px;
+  /* float: left; */
+  /* background-color: cornflowerblue; */
+}
+
+.second-defaultbluebutton1 {
+  color: white;
+  background-color: #5385c1;
+  border: none;
+  font-size: 25px;
+  padding: 10px 20px;
+}
+.second-defaultbluebutton2 {
+  color: white;
+  background-color: #5a5a5a;
+  border: none;
+  font-size: 25px;
+  padding: 10px 20px;
+}
+.second-defaultbluebutton3 {
+  color: black;
+  background-color: white;
+  border: 3px solid #5a5a5a;
+  font-size: 25px;
+  padding: 7px 18px;
+}
+.defaultbluebutton2,
+.defaultbluebutton3 {
+  margin-left: 10px;
+}
+.second-defaultbluebutton1,
+.second-defaultbluebutton2,
+.second-defaultbluebutton3 {
+  margin-top: 30px;
+
+  margin-right: 10px;
+  font-size: 15px;
+  /* padding: 5px 25px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blockquote {
+  margin-top: 30px;
+}
+.blockquote blockquote {
+  border-left: 5px solid #9a9a9a;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+  margin-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+  .inner-topbar {
+    width: 93%;
+  }
+  .navigation ul{
+    display: none;
+  }
+  .entirepagesection{
+    max-width: 690px;
+  }
+  .text-headers{
+    text-align: center;
+  }
+  .firstparagraph-sam {
+    width: 100%;
+  }
 }
