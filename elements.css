@@ -83,3 +83,83 @@ padding-left: 20px;
 .socialmediaicons img{
   padding-right: 10px;
 }
+
+/* WORKING ON THE PREVIOUS CODE */
+.entirepagesection {
+  width: 1280px;
+  margin: 0 auto;
+}
+.elementsheader h1{
+  padding-top: 5%;
+  text-align: center;
+  color: #5385c1;
+  font-size: 55px;
+}
+.elementsheader p{
+  text-align: center;
+  padding-bottom: 5%;
+  font-size: 25px;
+  margin-top: -2%;
+}
+.text-headers h2{
+  color: #5385c1;
+  font-size: 30px;
+}
+.twoparagraphss{
+  width: 100%;
+
+}
+.twoparagraphss h3{
+  color: #5385c1;
+  font-size: 23px;
+  
+}
+.firstparagraph-sam{
+  width: 50%;
+  float: left;
+}
+.firstparagraph-sam p{
+  padding-right: 10%;
+}
+.secondparagraph-magna{
+  width: 50%;
+  float: left;
+}
+.secondparagraph-magna p{
+  padding-right: 3%;
+}
+.clearfloat{
+  clear:both;
+}
+.threeparagraphshere{
+  width: 100%;
+}
+.p1of3{
+  width: 33.33%;
+  float: left;
+}
+.p2of3{
+  width: 33.33%;
+  float: left;
+}
+.p3of3{
+  width: 33.33%;
+  float: left;
+}
+.p1of3 p, .p2of3 p{
+  padding-right: 10%;
+}
+.p1of3 h3, .p2of3 h3, .p3of3 h3{
+  color: #5385c1;
+}
+.twodividedsections{
+  width: 100%;
+}
+.leftsection{
+  width: 45%;
+  float: left;
+}
+.rightsection{
+  width: 50%;
+  float: right;
+}
