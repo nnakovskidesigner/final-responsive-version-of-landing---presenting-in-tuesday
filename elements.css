@@ -681,7 +681,6 @@ table tr:nth-child(2n) {
   border: 1px solid #9a9a9a;
 }
 
-
 table tr {
   /* padding-top: 10px; */
   padding-bottom: 20px;
@@ -722,35 +721,13 @@ table tr {
   font-size: 20px;
   border: none;
 }
-.defaultbluebutton2, .defaultbluebutton3 {
+.defaultbluebutton2,
+.defaultbluebutton3 {
   margin-left: 0px;
 }
-.table h3{
+.table h3 {
   color: #5385c1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (max-width: 768px) {
   .inner-topbar {
@@ -832,7 +809,58 @@ table tr {
     margin-right: 40%;
     top: -83%;
   }
-  .smallimagesrow{
+  .smallimagesrow {
+    width: 100%;
+  }
+  .rightbuttons-big {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .rightbuttons-second-default {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: -0.1%;
+  }
+  .rightbuttons-small {
+    width: 100%;
+    margin-left: -0.1%;
+  }
+  .defaultbluebutton1,
+  .defaultbluebutton2,
+  .defaultbluebutton3 {
+    width: 100%;
+  }
+  .left-within-left {
+    width: 199.5%;
+    margin-bottom: 10%;
+  }
+  .fitbluebutton,
+  .fitgreybutton,
+  .fittransparentbutton {
+    width: 31%;
+  }
+  .fitbuttons {
+    width: 103%;
+    margin-left: -1.5%;
+  }
+  .fitbluebuttonsmall,
+  .fitgreybuttonsmall,
+  .fittransparentbuttonsmall {
+    width: 225px;
+    font-size: 19px;
+  }
+  .searchblueiconbutton,
+  .downloadgreybutton,
+  .donetransparenticon {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .downloadgreybutton,
+  .donetransparenticon {
+    
+    margin-left: -0.1%;
+  }
+  .greybutton1,.greybutton2,.greybutton3{
     width: 100%;
   }
 }
