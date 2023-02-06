@@ -677,6 +677,11 @@ table tr:nth-child(2n) {
   background-color: #f2f2f2;
   margin-top: 50px;
 }
+.alternatetable {
+  border: 1px solid #9a9a9a;
+}
+
+
 table tr {
   /* padding-top: 10px; */
   padding-bottom: 20px;
@@ -720,6 +725,32 @@ table tr {
 .defaultbluebutton2, .defaultbluebutton3 {
   margin-left: 0px;
 }
+.table h3{
+  color: #5385c1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (max-width: 768px) {
   .inner-topbar {
