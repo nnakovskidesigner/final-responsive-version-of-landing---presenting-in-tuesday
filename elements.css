@@ -271,7 +271,14 @@ body {
 .leftbuttons-section {
   float: left;
   width: 50%;
+  
 }
+.floattheseleft {
+  float: left;
+  width: 50%;
+}
+
+
 
 /* COPIED CODE BE CAREFUL */
 .removeleftmargin {
@@ -391,7 +398,9 @@ body {
 .rightbuttons-small {
   margin-left: 10px;
 }
-
+.smallbuttonss1{
+  width: 50%;
+}
 /* fitbuttons below */
 
 .fitbluebutton {
@@ -498,6 +507,27 @@ body {
   border: none;
   /* height: 30px; */
   padding: 12px 25px;
+}
+.secondgreybutton{
+  background-color: #5a5a5a;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  border: none;
+  /* height: 30px; */
+  padding: 12px 25px;
+  margin-top: 5%;
+  
+}
+.secondtransparenticon{
+  background-color: transparent;
+  font-size: 20px;
+  color: #5a5a5a;
+  padding-left: 10px;
+  border: none;
+  /* height: 30px; */
+  padding: 9px 22px;
+  border: 3px solid #9a9a9a;
 }
 .donetransparenticon {
   background-color: transparent;
@@ -728,6 +758,31 @@ table tr {
 .table h3 {
   color: #5385c1;
 }
+.formh3 {
+  color:#5385c1
+}
+.name-and-email-inputFields{
+  width: 44.9%;
+}
+textarea {
+  margin-top: 5%;
+  background-color: #d0d0d0;
+  width: 100%;
+  height: 150px;
+  float: left;
+  padding-top: 1%;
+  padding-left: 1%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left-within-left {
+  /* background-color: yellow; */
+  float: left;
+} 
+
+
+
+
 
 @media (max-width: 768px) {
   .inner-topbar {
@@ -833,6 +888,7 @@ table tr {
   .left-within-left {
     width: 199.5%;
     margin-bottom: 10%;
+    background-color: yellow;
   }
   .fitbluebutton,
   .fitgreybutton,
@@ -842,6 +898,9 @@ table tr {
   .fitbuttons {
     width: 103%;
     margin-left: -1.5%;
+  }
+  .rightbuttons-section{
+    float: left;
   }
   .fitbluebuttonsmall,
   .fitgreybuttonsmall,
@@ -862,5 +921,8 @@ table tr {
   }
   .greybutton1,.greybutton2,.greybutton3{
     width: 100%;
+  }
+  .name-and-email-inputFields{
+    width: 95%;
   }
 }
